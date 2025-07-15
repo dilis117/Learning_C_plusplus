@@ -6,11 +6,11 @@ int main(){
   //declare variables
 	int num1, num2, sum, difference, product, remainder;
   //print to console
-	cout << "Syötä ensimmäinen kokonaisluku: ";
+	cout << "Give first integer: ";
   //wait for the first integer
 	cin >> num1;
   //print to console
-	cout << "Syötä toinen kokonaisluku: ";
+	cout << "Give second integer: ";
   //wait for the second integer
 	cin >> num2;
   //calculate sum and save result
