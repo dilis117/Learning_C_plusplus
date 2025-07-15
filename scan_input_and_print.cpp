@@ -15,5 +15,5 @@ int main(){
 	//sum 'num1' and 'num2', then save the result into 'sum'-variable
 	summa = num1 + num2;
 	//print message and result to consol
-	cout << "Antamiesi lukujen summa on " << sum;
+	cout << "Sum of the numbers are " << sum;
 }
