@@ -6,9 +6,10 @@ int main(){
 	int days;
 	float hours=0.0, average=0.0, total=0.0;
   //print instructions into console
-	cout << "Ohjelma laskee yhteen haluamasi ajanjakson aikana tehdyt" << endl;
-	cout <<	"työtunnit sekä keskimääräisen työpäivän pituuden." << endl;
-	cout << "Kuinka monta päivää: " << endl;
+  //
+	cout << "The program will calculate the total hours worked during the desired period and" << endl;
+	cout <<	"the average length of the working day." << endl;
+	cout << "Amount of days: " << endl;
   //save input into 'days'-variable
 	cin >> days;
   //declare array with 'days'-variable, array length is 'days' value
@@ -16,7 +17,7 @@ int main(){
   //for loop to collect workhours as long as 'i' is less than 'days' value
 	for(int i =0;i<days;i++){
     //print message and increase 'i' value by 1
-		cout << "Anna " << ++i << ". päivän työtunnit: ";
+		cout << "Enter workhours of the day " << ++i << ". ";
     //decrease 'i' value by -1
 			i--;
       //save input into array
@@ -27,9 +28,9 @@ int main(){
   //calculate average
 	average = total / days;
   //print messages
-	cout << "Tehdyt tunnit yhteensä: " << total << endl;
-	cout << "Keskimääräinen työpäivän pituus: " << average << endl;
-	cout << "Syötetyt tunnit: ";
+	cout << "Total workhours: " << total << endl;
+	cout << "Average workday: " << average << endl;
+	cout << "Entered hours: ";
   //print array values one by one
 	for(int i =0;i<days;i++){
 		cout << arr[i];
